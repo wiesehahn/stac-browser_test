@@ -8,10 +8,10 @@ const XYZ = 'LTileLayer';
 
 const BASEMAPS = {
   earth: {
-    url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    url: 'https://sgx.geodatenzentrum.de/wmts_basemapde/tile/1.0.0/de_basemapde_web_raster_grau/default/GLOBAL_WEBMERCATOR/{z}/{y}/{x}.png',
     name: 'OpenStreetMap',
     is: XYZ,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.'
+    attribution: 'CC BY 4.0: &copy; GeoBasis-DE / BKG (2024)'
   },
   europa: {
     baseUrl: 'https://planetarymaps.usgs.gov/cgi-bin/mapserv?map=/maps/jupiter/europa_simp_cyl.map',
